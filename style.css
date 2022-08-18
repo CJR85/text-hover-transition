@@ -6,3 +6,20 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff0057, #2196f3);
+}
+
+h2 {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+  font-size: 4em;
+  cursor: pointer;
+}
